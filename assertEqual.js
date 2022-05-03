@@ -1,16 +1,17 @@
 const assertEqual = function(actual, expected) { 
   if (actual !== expected) {
-    return ('Assertion Failed: [actual]');
+    return ('Assertion Failed `${actual}`');
   } else 
   (actual === expected) {
-    return ('Assertion Passed: [expected]')
+    return ('Assertion Passed `${expected}`')
   };
 
 };
 
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1) ;
-assertEqual(<3<3<3, :):):));
+
+
 
 
 
